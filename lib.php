@@ -1,13 +1,13 @@
 <?php
 
-function themesmb_process_css($css, $theme) {
+function themesmb_lite_lite_process_css($css, $theme) {
  
     if (!empty($theme->settings->customcss)) {
         $customcss = $theme->settings->customcss;
     } else {
         $customcss = null;
     }
-    $css = themesmb_set_customcss($css, $customcss);
+    $css = themesmb_lite_lite_set_customcss($css, $customcss);
  
     return $css;
 }
@@ -19,7 +19,7 @@ function themesmb_process_css($css, $theme) {
  * @param mixed $customcss
  * @return string
  */
-function themesmb_set_customcss($css, $customcss) {
+function themesmb_lite_lite_set_customcss($css, $customcss) {
     $tag = '[[setting:customcss]]';
     $replacement = $customcss;
     if (is_null($replacement)) {

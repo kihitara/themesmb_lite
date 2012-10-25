@@ -1,5 +1,14 @@
 ***************************************
 ******* Themes.MoodleBites.com ********
+************* LITE THEME **************
+***************************************
+
+This is a version of the
+Themes.MoodleBites.com Theme that has
+the extra block regions removed. For use
+with Moodle 2.3 and 2.4 until the custom
+block regions issue is resolved.
+
 ***************************************
 
 To put content in the slider, open
@@ -21,8 +30,5 @@ You can make up to nine slides at any
 one time. They are numbered automatically.
 
 *************** Updates ****************
-24/10/12
-- Fixed main content token.
-
-02/07/12
-- Block regions fixed for Moodle 2.3
+25/10/12
+- Theme is born, based on ThemesMB.
